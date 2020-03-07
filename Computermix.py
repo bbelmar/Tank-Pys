@@ -120,13 +120,6 @@ def brake():
     pwm_ENB.ChangeDutyCycle(10)
     
 
-#Delay 2s   
-
-
-#The try/except statement is used to detect errors in the try block.
-#the except statement catches the exception information and processes it.
-#The robot car advance 1s，back 1s，turn left 2s，turn right 2s，turn left  in place 3s
-#turn right  in place 3s，stop 1s。
 try:
     motor_init()
     while True:
@@ -166,10 +159,4 @@ finally:
     GPIO.cleanup()
     pwm_ENA.stop()
     pwm_ENB.stop()
-    GPIO.cleanup() 
-            
-        
-
-
-
-
+    GPIO.cleanup()
