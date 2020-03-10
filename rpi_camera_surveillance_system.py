@@ -12,10 +12,32 @@ from http import server
 PAGE="""\
 <html>
 <head>
-<title>Raspberry Pi - Surveillance Camera</title>
+<title>El Robotito</title>
 </head>
 <body>
-<center><h1>Raspberry Pi - Surveillance Camera</h1></center>
+<center><h1>              /[-])//  ___
+                     __ --\ `_/~--|  / \
+                   /_-/~~--~~ /~~~\\_\ /\
+                   |  |___|===|_-- | \ \ \
+ _/~~~~~~~~|~~\,   ---|---\___/----|  \/\-\
+ ~\________|__/   / // \__ |  ||  / | |   | |
+          ,~-|~~~~~\--, | \|--|/~|||  |   | |
+          [3-|____---~~ _--'==;/ _,   |   |_|
+                      /   /\__|_/  \  \__/--/
+                     /---/_\  -___/ |  /,--|
+                     /  /\/~--|   | |  \///
+                    /  / |-__ \    |/
+                   |--/ /      |-- | \
+                  \^~~\\/\      \   \/- _
+                   \    |  \     |~~\~~| \
+                    \    \  \     \   \  | \
+                      \    \ |     \   \    \
+                       |~~|\/\|     \   \   |
+                      |   |/         \_--_- |\
+                      |  /            /   |/\/
+                       ~~             /  /
+                                     |__/
+</h1></center>
 <center><img src="stream.mjpg" width="640" height="480"></center>
 </body>
 </html>
